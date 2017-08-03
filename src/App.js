@@ -14,7 +14,7 @@ class App extends Component {
         <div>
           <Link to="/" className="link">Home</Link>
           <Link to="/page2" className="link">Page 2</Link>
-          <Link to="/pageDetails/victory" className="link">Details</Link>
+          <Link to="/pageDetails/fairy" className="link">Details</Link>
         </div>
         <Switch>
           <Route component={ Page1 } path="/" exact />

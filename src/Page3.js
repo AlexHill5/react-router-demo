@@ -7,6 +7,7 @@ export default class Page3 extends Component {
         this.state = {
             idFromUrl: props.match.params.id
         }
+        console.log(props.match)
     }
     render(){
         return (
